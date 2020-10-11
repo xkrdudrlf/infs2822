@@ -1,0 +1,14 @@
+#entryTable {
+    border-collapse: collapse;
+}
+
+#entryTable thead {
+    text-align: center;
+    font-weight: bold;
+    background-color: lightgreen;
+}
+
+#entryTable td {
+    border: 1px solid gray;
+    padding: 5px;
+}

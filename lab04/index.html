@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Weather Observations Site</title>
+</head>
+<body>
+    <h1>Weather Observations App</h1>
+    <div style="display:flex; flex-direction:column; justify-content: space-around; margin-bottom: 20px; height: 22vh; width: 20vw;">
+        <label for="newDate">Date: </label><input id="newDate" type="date">
+        <label for="newMinTemp">Minimum Temperature: </label><input id="newMinTemp" type="text" placeholder="new min temp here">
+        <label for="newMaxTemp">Maximum Temparature: </label><input id="newMaxTemp" type="text" placeholder="new max temp here">
+        <label for="newConditions">Conditions: </label><input id="newConditions" type="text" placeholder="new conditions here">
+    </div>
+    <button id="createButton" style="margin-right: 10px;">Create</button>
+    <button id="downloadButton">Download</button>
+    <hr>
+    <h2>Upload existing file</h2>
+    <input id="uploadFile" type="file">
+    <hr>
+    <table id="entryTable">
+        <thead>
+            <td>ID</td>
+            <td>Date</td>
+            <td>Minimum Temparature</td>
+            <td>Maximum Temparature</td>
+            <td>Conditions</td>
+            <td>Action</td>
+        </thead>
+        <tbody>
+        </tbody>
+    </table>
+    <a href=""></a>
+    <script src="./node_modules/file-saver/dist/FileSaver.min.js"></script>
+    <script src="./logic.js"></script>
+</body>
+</html>

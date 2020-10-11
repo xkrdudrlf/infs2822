@@ -1,0 +1,9 @@
+{
+  "name": "lab04",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "file-saver": "^2.0.2"
+  }
+}
